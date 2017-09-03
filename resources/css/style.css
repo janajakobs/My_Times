@@ -57,3 +57,56 @@ a{
 .column-small {
   width: 240px;
 }
+
+article{
+  font-family: Georgia;
+  font-size: 17px;
+  color: black;
+}
+
+h1{
+  font-size: 40px;
+  background-image: url("../images/img-story-main.png");
+  height: 300px;
+  width:629px;
+  font-family: Georgia;
+  font-weight: bold;
+  color: white;
+}
+
+.image {
+ font-family: Georgia;
+ font-weight: bold;
+ font-size: 30px;
+ color: white;
+}
+
+ #Earth{
+  background-image: url("../images/img-story-2.png");
+  height: 299px;
+  width: 300px;
+  font-family: Georgia;
+  font-weight: bold;
+  font-size: 30px;
+  color: white;
+}
+
+#research{
+  font-family: Georgia;
+  font-weight: bold;
+  font-size: 30px;
+  color: white;
+  background-image: url("../images/img-story-3.png");
+  height: 299px;
+  width: 300px;
+}
+
+#cat{
+  font-family: Georgia;
+  font-weight: bold;
+  font-size: 30px;
+  color: white;
+  height: 299px;
+  width: 300px;
+  background-image: url("../images/img-story-1.png");
+}
