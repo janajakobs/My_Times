@@ -39,3 +39,21 @@ header{
 a{
   color:inherit;
 }
+/* header part ends */
+
+/*main body begins */
+.main-body{
+  display: flex;
+}
+
+.column-large {
+  width: 630px;
+}
+
+.column-medium {
+  width: 300px;
+}
+
+.column-small {
+  width: 240px;
+}
