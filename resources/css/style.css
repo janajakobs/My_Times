@@ -1,35 +1,41 @@
 /* header part */
-.header{
+
+header{
   display: flex;
-  justify-content: space-between;
   font-family: Verdana;
   font-size: 14px;
   font-weight: bold;
   justify-content: space-between;
   align-items: center;
   border-bottom: 1px solid black;
-  z-index: 1;
-  font-weight: bold;
   width: 100%;
-  background-color: white;
-  position: fixed;
+  height: 80px;
 }
 
-.logo p{
-  color: MediumAquamarine;
+.logo{
   display: flex;
-  align-items: flex-start;
-  justify-content: space-around;
-  font-weight: bold;
-  position: relative;
-  padding-left: 15px;
+  color: MediumAquamarine;
+  align-items: center;
+  display: inline-flex;
+  padding-left: 2em;
 }
 
-.navigation{
+.logo img{
+  display: inline-flex;
+  height: 60px;
+  width: 70px;
+  margin-right: 1em;
+}
+
+.navigation {
   display: inline-block;
-  align-content: flex-end;
-  justify-content:space-around;
-  weight: bold;
+  padding: 10px;
+  word-spacing: 2em;
+  margin-right: 4em;
+  text-decoration: none;
+  color: black
+}
 
-
-/* header part ends*/
+a{
+  color:inherit;
+}
