@@ -73,7 +73,7 @@ nav span {
 .heading {
   display: flex;
   flex-direction: column;
-  vertical-align: top;
+  justify-content: center;
   text-align: center;
   font-family: Georgia;
   font-weight: bold;
@@ -127,7 +127,6 @@ article p {
 .heading.earth {
   background-image: url("../images/img-story-2.png");
   flex-shrink: 1;
-  text-align: center;
 }
 
 .heading.research {
@@ -139,6 +138,10 @@ article p {
 /*Medium column*/
 .column.medium {
   width: 300px;
+}
+
+.column.medium h2 {
+  margin-top: 40px;
 }
 
 .heading.cats {
